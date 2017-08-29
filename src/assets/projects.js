@@ -8,7 +8,7 @@ module.exports = [
                 "name": "Recipe Box App",
                 "date": new Date("Jul 20, 2017"),
                 "image":"recipebox_main.png",
-                "link":"https://codepen.io/quanchifootball/full/XgLMve/",
+                "link":"https://qcfb-react.glitch.me/recipebox/",
                 "source":"https://github.com/quanchifootball/recipebox",
                 "tags":["html","css","react","react-bootstrap","jsx"],
                 "description":"This app uses your browser's local storage to store and return new recipes."
@@ -18,7 +18,7 @@ module.exports = [
                 "name": "Markdown Previewer",
                 "date": new Date("Jul 11, 2017"),
                 "image":"markdown_main.png",
-                "link":"https://codepen.io/quanchifootball/full/JJexoR",
+                "link":"https://qcfb-react.glitch.me/markdown/",
                 "source":"https://github.com/quanchifootball/markdown",
                 "tags":["html","css","bootstrap","react","marked.js","jquery","jsx"],
                 "description":"A live preview app for marking up texts using marked.js."
@@ -28,7 +28,7 @@ module.exports = [
                 "name": "FCC Leaderboard API",
                 "date": new Date("Jul 17, 2017"),
                 "image":"leaderboard_main.png",
-                "link":"https://codepen.io/quanchifootball/full/eRoKOr",
+                "link":"https://qcfb-react.glitch.me/leaderboard/",
                 "source":"https://github.com/quanchifootball/leaderboard",
                 "tags":["html","css","bootstrap","react","jquery","jsx"],
                 "description":"A FreeCodeCamp project testing my react skills."
