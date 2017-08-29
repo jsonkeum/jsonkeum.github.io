@@ -550,7 +550,7 @@ Object.defineProperty(exports, "__esModule", {
 var Intro = function Intro() {
     return React.createElement(
         "div",
-        null,
+        { style: { height: "400px" } },
         React.createElement(
             "h2",
             { id: "welcome", className: "text-center title" },
@@ -890,7 +890,7 @@ ReactDOM.render(React.createElement(_IndexPage2.default, null), document.getElem
 
 function fadeIn() {
   document.getElementById("welcome").style.opacity = 1;
-  document.getElementById("welcome").style.marginTop = "120px";
+  document.getElementById("welcome").style.paddingTop = "120px";
 }
 
 window.onload = fadeIn;
