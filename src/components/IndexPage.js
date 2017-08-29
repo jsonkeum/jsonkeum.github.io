@@ -14,7 +14,8 @@ export default class IndexPage extends React.Component {
                    };
         })
         this.state = {
-            about: true,
+            intro: true,
+            about: false,
             collection: {},
             collectionNames: name
         };
@@ -25,7 +26,8 @@ export default class IndexPage extends React.Component {
     handleAbout(){
         if(!this.state.about){
             this.setState({
-              about : true
+                intro:false,
+                about:true
             });
         }
     }
@@ -36,7 +38,8 @@ export default class IndexPage extends React.Component {
                 return coll.id == choice;
             });
             this.setState({
-                about : false,
+                intro:false,
+                about:false,
                 collection : selection[0]
             });
         } else {
@@ -61,7 +64,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <Bio />
               <div id="main" className="col-xs-12 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1">
-                <MainPage about={this.state.about} coll={this.state.collection}/>
+                <MainPage about={this.state.about} intro={this.state.intro} coll={this.state.collection}/>
               </div>
             </div>
             <footer>

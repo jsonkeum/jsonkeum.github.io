@@ -446,7 +446,8 @@ var IndexPage = function (_React$Component) {
             };
         });
         _this.state = {
-            about: true,
+            intro: true,
+            about: false,
             collection: {},
             collectionNames: name
         };
@@ -460,6 +461,7 @@ var IndexPage = function (_React$Component) {
         value: function handleAbout() {
             if (!this.state.about) {
                 this.setState({
+                    intro: false,
                     about: true
                 });
             }
@@ -472,6 +474,7 @@ var IndexPage = function (_React$Component) {
                     return coll.id == choice;
                 });
                 this.setState({
+                    intro: false,
                     about: false,
                     collection: selection[0]
                 });
@@ -517,7 +520,7 @@ var IndexPage = function (_React$Component) {
                     React.createElement(
                         "div",
                         { id: "main", className: "col-xs-12 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1" },
-                        React.createElement(_MainPage2.default, { about: this.state.about, coll: this.state.collection })
+                        React.createElement(_MainPage2.default, { about: this.state.about, intro: this.state.intro, coll: this.state.collection })
                     )
                 ),
                 React.createElement(
@@ -538,7 +541,27 @@ var IndexPage = function (_React$Component) {
 
 exports.default = IndexPage;
 
-},{"../assets/projects.js":1,"./Bio.js":3,"./MainMenu.js":5,"./MainPage.js":6}],5:[function(require,module,exports){
+},{"../assets/projects.js":1,"./Bio.js":3,"./MainMenu.js":6,"./MainPage.js":7}],5:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var Intro = function Intro() {
+    return React.createElement(
+        "div",
+        null,
+        React.createElement(
+            "h2",
+            { id: "welcome", className: "text-center title" },
+            "Welcome,"
+        )
+    );
+};
+
+exports.default = Intro;
+
+},{}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -617,7 +640,7 @@ var MainMenu = function (_React$Component) {
 
 exports.default = MainMenu;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -629,6 +652,10 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _ProjectCard = require("./ProjectCard.js");
 
 var _ProjectCard2 = _interopRequireDefault(_ProjectCard);
+
+var _Intro = require("./Intro.js");
+
+var _Intro2 = _interopRequireDefault(_Intro);
 
 var _About = require("./About.js");
 
@@ -654,7 +681,9 @@ var MainPage = function (_React$Component) {
     _createClass(MainPage, [{
         key: "render",
         value: function render() {
-            if (this.props.about) {
+            if (!this.props.about && this.props.intro) {
+                return React.createElement(_Intro2.default, null);
+            } else if (this.props.about && !this.props.intro) {
                 return React.createElement(_About2.default, null);
             } else {
                 return React.createElement(
@@ -682,7 +711,7 @@ var MainPage = function (_React$Component) {
 
 exports.default = MainPage;
 
-},{"./About.js":2,"./ProjectCard.js":7}],7:[function(require,module,exports){
+},{"./About.js":2,"./Intro.js":5,"./ProjectCard.js":8}],8:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -848,7 +877,7 @@ var ProjectCard = function (_React$Component) {
 
 exports.default = ProjectCard;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 'use strict';
 
 var _IndexPage = require('./components/IndexPage.js');
@@ -859,4 +888,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 ReactDOM.render(React.createElement(_IndexPage2.default, null), document.getElementById('app'));
 
-},{"./components/IndexPage.js":4}]},{},[8]);
+function fadeIn() {
+  document.getElementById("welcome").style.opacity = 1;
+  document.getElementById("welcome").style.marginTop = "120px";
+}
+
+window.onload = fadeIn;
+
+},{"./components/IndexPage.js":4}]},{},[9]);
