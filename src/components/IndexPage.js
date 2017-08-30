@@ -53,15 +53,17 @@ export default class IndexPage extends React.Component {
         return (
           <div id="wrapper" className="container">
             <div id="navbar">
-              <h1 id="name">Jason Keum</h1>
-              <nav>
-                <ul>
-                  <li onClick={this.handleAbout}>About</li>
-                  <MainMenu onMenu={this.handleMenu} names={this.state.collectionNames}/>
-                </ul>
-              </nav>
+              <div>
+                  <h1 id="name">Jason Keum</h1>
+                  <nav>
+                     <ul>
+                       <li onClick={this.handleAbout}>About</li>
+                       <MainMenu onMenu={this.handleMenu} names={this.state.collectionNames}/>
+                     </ul>
+                  </nav>
+              </div>
             </div>
-            <div className="row">
+            <div id="page" className="row">
               <Bio />
               <div id="main" className="col-xs-12 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1">
                 <MainPage about={this.state.about} intro={this.state.intro} coll={this.state.collection}/>

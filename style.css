@@ -7,18 +7,33 @@ body {
     background: #f2f7fb;
     font-family: 'Quicksand', sans-serif;
 }
-#navbar {       
+#page {
+    margin-top:100px;
+}
+#navbar {
+    position:fixed;
     border-bottom:2px double gray;
-    margin-bottom:10px;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:3;
+    background:#f2f7fb;
+    margin:auto;
 }
-#navbar > * {
-    display:inline-block;
+#navbar > div {
+    max-width:1024px;
+    margin:auto;
 }
-#navbar > nav {
-    float:right;
-    margin:20px 10px 0px 0px;
+#navbar > div * {
+    display: inline-block;
 }
-#navbar > nav > ul > li {
+#navbar > div > nav {
+    float: right;
+    margin-top:30px;
+    margin-bottom: -30px;
+    padding-right:10px;
+}
+#navbar > div > nav > ul > li {
     display:inline-block;
     cursor:pointer;
     min-width:70px;
@@ -27,10 +42,10 @@ body {
     font-weight: 700;
     font-size:18px;
 }
-#navbar > nav > ul > li:hover {
+#navbar > div > nav > ul > li:hover {
     color:#a1b2ed;
 }
-#navbar > nav > ul > li:first-child{
+#navbar > div > nav > ul > li:first-child{
     text-align: left;
 }
 #wrapper {
@@ -78,7 +93,7 @@ body {
 #name {
     font-family: 'Caveat', cursive;
     font-weight:700;
-    
+    padding-left:10px;
 }
 .title {
     font-family: 'Caveat', cursive;
@@ -147,9 +162,6 @@ body {
 .card:hover div {
     color:rgba(255, 255, 255,1);
     background:rgba(91,103,140, 0.9);
-}
-.card:hover {
-    
 }
 .tags {
     margin-bottom:25px;

@@ -494,28 +494,32 @@ var IndexPage = function (_React$Component) {
                     "div",
                     { id: "navbar" },
                     React.createElement(
-                        "h1",
-                        { id: "name" },
-                        "Jason Keum"
-                    ),
-                    React.createElement(
-                        "nav",
+                        "div",
                         null,
                         React.createElement(
-                            "ul",
+                            "h1",
+                            { id: "name" },
+                            "Jason Keum"
+                        ),
+                        React.createElement(
+                            "nav",
                             null,
                             React.createElement(
-                                "li",
-                                { onClick: this.handleAbout },
-                                "About"
-                            ),
-                            React.createElement(_MainMenu2.default, { onMenu: this.handleMenu, names: this.state.collectionNames })
+                                "ul",
+                                null,
+                                React.createElement(
+                                    "li",
+                                    { onClick: this.handleAbout },
+                                    "About"
+                                ),
+                                React.createElement(_MainMenu2.default, { onMenu: this.handleMenu, names: this.state.collectionNames })
+                            )
                         )
                     )
                 ),
                 React.createElement(
                     "div",
-                    { className: "row" },
+                    { id: "page", className: "row" },
                     React.createElement(_Bio2.default, null),
                     React.createElement(
                         "div",
