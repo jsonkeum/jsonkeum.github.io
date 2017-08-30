@@ -459,6 +459,7 @@ var IndexPage = function (_React$Component) {
     _createClass(IndexPage, [{
         key: "handleAbout",
         value: function handleAbout() {
+            $(document).scrollTop(0);
             if (!this.state.about) {
                 this.setState({
                     intro: false,
@@ -469,6 +470,7 @@ var IndexPage = function (_React$Component) {
     }, {
         key: "handleMenu",
         value: function handleMenu(choice) {
+            $(document).scrollTop(0);
             if (this.state.collection.id != choice) {
                 var selection = projects.filter(function (coll) {
                     return coll.id == choice;

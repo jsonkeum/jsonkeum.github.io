@@ -1,4 +1,3 @@
-
 import MainPage from "./MainPage.js";
 import MainMenu from "./MainMenu.js";
 import Bio from "./Bio.js"
@@ -24,6 +23,7 @@ export default class IndexPage extends React.Component {
     }
 
     handleAbout(){
+        $(document).scrollTop(0);
         if(!this.state.about){
             this.setState({
                 intro:false,
@@ -33,6 +33,7 @@ export default class IndexPage extends React.Component {
     }
 
     handleMenu(choice){
+        $(document).scrollTop(0);
         if(this.state.collection.id != choice){
             let selection = projects.filter(function(coll){
                 return coll.id == choice;
