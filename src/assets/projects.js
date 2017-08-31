@@ -8,7 +8,7 @@ module.exports = [
                 "name": "Recipe Box App",
                 "date": new Date("Jul 20, 2017"),
                 "image":"recipebox_main.png",
-                "link":"https://qcfb-react.glitch.me/recipebox/",
+                "link":"https://qcfb-proj.glitch.me/recipebox/",
                 "source":"https://github.com/quanchifootball/recipebox",
                 "tags":["html","css","react","react-bootstrap","jsx"],
                 "description":"This app uses your browser's local storage to store and return new recipes."
@@ -18,7 +18,7 @@ module.exports = [
                 "name": "Markdown Previewer",
                 "date": new Date("Jul 11, 2017"),
                 "image":"markdown_main.png",
-                "link":"https://qcfb-react.glitch.me/markdown/",
+                "link":"https://qcfb-proj.glitch.me/markdown/",
                 "source":"https://github.com/quanchifootball/markdown",
                 "tags":["html","css","bootstrap","react","marked.js","jquery","jsx"],
                 "description":"A live preview app for marking up texts using marked.js."
@@ -28,7 +28,7 @@ module.exports = [
                 "name": "FCC Leaderboard API",
                 "date": new Date("Jul 17, 2017"),
                 "image":"leaderboard_main.png",
-                "link":"https://qcfb-react.glitch.me/leaderboard/",
+                "link":"https://qcfb-proj.glitch.me/leaderboard/",
                 "source":"https://github.com/quanchifootball/leaderboard",
                 "tags":["html","css","bootstrap","react","jquery","jsx"],
                 "description":"A FreeCodeCamp project testing my react skills."
@@ -38,7 +38,7 @@ module.exports = [
                 "name": "<SVG> Bar Chart",
                 "date": new Date("Aug 15, 2017"),
                 "image":"barchart_main.png",
-                "link":"https://codepen.io/quanchifootball/full/RZZYOw",
+                "link":"https://qcfb-proj.glitch.me/barchart",
                 "source":"https://github.com/quanchifootball/barchart",
                 "tags":["html","css","d3.js","jquery"],
                 "description":"An interactive D3.js bar chart of US GDP per quarter."
@@ -48,7 +48,7 @@ module.exports = [
                 "name": "Tic Tac Toe",
                 "date": new Date("Jun 29, 2017"),
                 "image":"tictactoe_main.png",
-                "link":"https://codepen.io/quanchifootball/full/VWrRGJ",
+                "link":"https://qcfb-proj.glitch.me/tictactoe",
                 "source":"https://github.com/quanchifootball/tictactoe",
                 "tags":["html","css","bootstrap","jquery","animate.css"],
                 "description":"An unbeatable tic tac toe game. You cannot win."
@@ -58,7 +58,7 @@ module.exports = [
                 "name": "Twitch.tv API",
                 "date": new Date("Jun 30, 2017"),
                 "image":"twitch_main.png",
-                "link":"https://codepen.io/quanchifootball/full/pwdERx",
+                "link":"https://qcfb-proj.glitch.me/twitch",
                 "source":"https://github.com/quanchifootball/twitch",
                 "tags":["html","css","bootstrap","jquery"],
                 "description":"A playlist of twitch streamers gathered using the twitch.tv json api."
@@ -68,7 +68,7 @@ module.exports = [
                 "name": "Simon Game",
                 "date": new Date("Jun 25, 2017"),
                 "image":"simon_main.png",
-                "link":"https://codepen.io/quanchifootball/full/jwmaYd",
+                "link":"https://qcfb-proj.glitch.me/simon",
                 "source":"https://github.com/quanchifootball/simon",
                 "tags":["html","css","jquery"],
                 "description":"A Simon light-up game."
@@ -78,7 +78,7 @@ module.exports = [
                 "name": "Calculator",
                 "date": new Date("Jun 15, 2017"),
                 "image":"calculator_main.png",
-                "link":"https://codepen.io/quanchifootball/full/pwbRpr",
+                "link":"https://qcfb-proj.glitch.me/calculator",
                 "source":"https://github.com/quanchifootball/calculator",
                 "tags":["html","css","bootstrap","jquery"],
                 "description":"A javascript calculator."
@@ -88,7 +88,7 @@ module.exports = [
                 "name": "Pomodoro Clock",
                 "date": new Date("Jun 20, 2017"),
                 "image":"pomodoro_main.png",
-                "link":"https://codepen.io/quanchifootball/full/weJQrY",
+                "link":"https://qcfb-proj.glitch.me/pomodoro",
                 "source":"https://github.com/quanchifootball/pomodoro",
                 "tags":["html","css","jquery"],
                 "description":"A rotating interval-based timer."
