@@ -12,7 +12,6 @@ body {
 }
 #navbar {
     position:fixed;
-    border-bottom:2px double gray;
     top:0;
     left:0;
     width:100%;
@@ -22,6 +21,7 @@ body {
 }
 #navbar > div {
     max-width:1024px;
+    border-bottom:2px double gray;
     margin:auto;
 }
 #navbar > div > * {
@@ -192,12 +192,13 @@ body {
     margin-top:50px;
 }
 footer {
-    margin-top:50px;
+    margin-top:100px;
 }
 #about-me {
     max-width:90%;
     margin:auto;
     margin-top:40px;
+    clear: both;
 }
 #about-me p {
     font-size:18px;
