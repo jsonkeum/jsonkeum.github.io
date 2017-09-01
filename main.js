@@ -212,13 +212,13 @@ var About = function (_React$Component) {
                     React.createElement(
                         "p",
                         null,
-                        "My goal is to get involved in developing solutions that combine law and technology. I have the law part down and am now working on the technology side. Although I\u2019ve taken some college courses on algorithms, systems analysis and OOP, most of what I know is self-taught."
+                        "My goal is to get involved in developing practical web applications for business end users. As a long time power user of dozens of B2B applications, I have a lot of insight in this area."
                     ),
                     React.createElement("br", null),
                     React.createElement(
                         "p",
                         null,
-                        "This page was built using Node.js with React components made browser-friendly using Gulp, and features some of the projects I\u2019ve built so far. Enjoy, and shoot me a message on Linkedin if you\u2019d like to chat."
+                        "Although I\u2019ve taken some college courses on algorithms, systems analysis and OOP, most of what I know is self-taught. This page was built using Node.js with React components made browser-friendly using Gulp, and features some of the projects I\u2019ve built so far. Enjoy, and shoot me a message on Linkedin if you\u2019d like to chat."
                     ),
                     React.createElement("br", null),
                     React.createElement(
