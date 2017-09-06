@@ -9,7 +9,7 @@ export default class About extends React.Component {
                 </h2>
                 <div id="about-me">
                     <h3><strong>Hi</strong>,</h3>
-                    <p>I am a detail oriented problem solver with American legal experience and a new full-stack web developer seeking an entry level role with a B2B or B2C tech startup. As a long time power user of a variety of business applications, I am interested in developing practical solutions that strongly consider the needs of the end user. No unnecessary bells and whistles, just less time wasted at the office.</p>
+                    <p>I am a detail oriented problem solver with American legal experience and a new full-stack web developer seeking a growing role with a B2B or B2C tech startup. As a long time power user of a variety of business applications, I am interested in developing practical solutions that strongly consider the needs of the end user. No unnecessary bells and whistles, just less time wasted at the office.</p>
                     <br></br>
                     <p>I started programming in May 2016 knowing absolutely zero about development. Through initiative and disciplined self-learning I can now build and deploy MERN-stack single page apps from scratch!</p>
                     <br></br>
