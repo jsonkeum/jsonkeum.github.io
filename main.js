@@ -188,53 +188,25 @@ var About = function (_React$Component) {
                     React.createElement(
                         "p",
                         null,
-                        "I am an aspiring full stack developer currently residing in Vancouver. Just a few years back I was working as a trial lawyer in New York, where I represented clients in labour and employment matters. Practicing law was a rewarding gig, and I got to use cool phrases like ",
-                        React.createElement(
-                            "em",
-                            null,
-                            "double jeopardy"
-                        ),
-                        " and ",
-                        React.createElement(
-                            "em",
-                            null,
-                            "beyond a reasonable doubt"
-                        ),
-                        ". ",
-                        React.createElement(
-                            "strong",
-                            null,
-                            "*"
-                        ),
-                        " "
+                        "I am a detail oriented problem solver with American legal experience and a new full-stack web developer seeking a growing role with a B2B or B2C tech startup. As a long time power user of a variety of business applications, I am interested in developing practical solutions that strongly consider the needs of the end user. No unnecessary bells and whistles, just less time wasted at the office."
                     ),
                     React.createElement("br", null),
                     React.createElement(
                         "p",
                         null,
-                        "My goal is to get involved in developing practical web applications for business end users. As a long time power user of dozens of B2B applications, I have a lot of insight in this area."
+                        "I started programming in May 2016 knowing absolutely zero about development. Through initiative and disciplined self-learning I can now build and deploy MERN-stack single page apps from scratch!"
                     ),
                     React.createElement("br", null),
                     React.createElement(
                         "p",
                         null,
-                        "Although I\u2019ve taken some college courses on algorithms, systems analysis and OOP, most of what I know is self-taught. This page was built using Node.js with React components made browser-friendly using Gulp, and features some of the projects I\u2019ve built so far. Enjoy, and shoot me a message on Linkedin if you\u2019d like to chat."
+                        "Although I\u2019ve taken some college courses on algorithms, systems analysis and OOP (Java), most of what I know is self-taught. This page was built using Node.js with React components made browser-friendly using Gulp, and features some of the projects I\u2019ve built so far. Enjoy, and shoot me a message on Linkedin if you\u2019d like to chat."
                     ),
                     React.createElement("br", null),
                     React.createElement(
                         "p",
                         { className: "text-right signed" },
                         "-Jason"
-                    ),
-                    React.createElement(
-                        "p",
-                        { id: "postscript" },
-                        React.createElement(
-                            "strong",
-                            null,
-                            "*"
-                        ),
-                        " I was not a criminal lawyer so I guess I never actually used those phrases, but they\u2019re still fun to think about."
                     )
                 )
             );
