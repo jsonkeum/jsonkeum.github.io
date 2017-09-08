@@ -34,16 +34,6 @@ module.exports = [
                 "description":"A FreeCodeCamp project testing my react skills."
             },
             {
-                "id":"barchart",
-                "name": "<SVG> Bar Chart",
-                "date": new Date("Aug 15, 2017"),
-                "image":"barchart_main.png",
-                "link":"https://qcfb-proj.glitch.me/barchart",
-                "source":"https://github.com/quanchifootball/barchart",
-                "tags":["html","css","d3.js","jquery"],
-                "description":"An interactive D3.js bar chart of US GDP per quarter."
-            },
-            {
                 "id":"tictactoe",
                 "name": "Tic Tac Toe",
                 "date": new Date("Jun 29, 2017"),
@@ -95,6 +85,32 @@ module.exports = [
             }
         ]
     },
+	{
+		"id":"d3",
+        "collectionName": "D3.js",
+        "collection":[
+            {
+                "id":"barchart",
+                "name": "Interactive Bar Chart",
+                "date": new Date("Aug 15, 2017"),
+                "image":"barchart_main.png",
+                "link":"https://qcfb-proj.glitch.me/barchart",
+                "source":"https://github.com/quanchifootball/barchart",
+                "tags":["html","css","d3.js","jquery"],
+                "description":"An interactive D3.js bar chart of US GDP per quarter."
+            },
+            {
+                "id":"scatterplot",
+                "name": "Interactive Scatterplot",
+                "date": new Date("Sep 7, 2017"),
+                "image":"scatterplot_main.png",
+                "link":"https://qcfb-proj.glitch.me/scatterplot",
+                "source":"https://github.com/quanchifootball/scatterplot",
+                "tags":["html","css","d3.js"],
+                "description":"An interactive scatterplot charting doping allegations in professional cycling."
+            }
+        ]
+	},
     {
         "id":"node",
         "collectionName":"Node.js",
