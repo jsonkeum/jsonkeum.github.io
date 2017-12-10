@@ -166,5 +166,21 @@ module.exports = [
                 "description":"A simple metadata api that returns the size of the uploaded file."
             }
         ]
+    },
+    {
+        "id":"java",
+        "collectionName":"Java",
+        "collection":[
+            {
+                "id":"dataminer",
+                "name": "Contact Data Mining Helper",
+                "date": new Date("Dec 9, 2017"),
+                "image":"dataminer_main.png",
+                "link":"",
+                "source":"https://github.com/quanchifootball/dataminer",
+                "tags":["java se","swing"],
+                "description":"This program takes in an xlsx file with specified fields and creates an easy to use interface for mining contact data on the internet. Nothing fancy here, just a set of simple features that would otherwise take up time for for the average data entry activity."
+            }
+        ]
     }
 ]
