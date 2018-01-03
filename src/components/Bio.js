@@ -5,7 +5,7 @@ export default class Bio extends React.Component {
         return(
             <div id="bio" className="col-xs-12 col-sm-2 col-md-2 row">
                 <div className="col-xs-3 col-sm-12 col-md-12">
-                    <img src="./src/assets/images/me.jpeg" className="img-responsive img-rounded img-thumbnail biopic" />
+                    <img src="./src/assets/images/me.jpg" className="img-responsive img-rounded img-thumbnail biopic" />
                     <div style={{textAlign:"center"}}></div>
                 </div>
                 <div className="col-xs-9 col-sm-12 col-md-12 masthead">

@@ -283,7 +283,7 @@ var Bio = function (_React$Component) {
                 React.createElement(
                     "div",
                     { className: "col-xs-3 col-sm-12 col-md-12" },
-                    React.createElement("img", { src: "./src/assets/images/me.jpeg", className: "img-responsive img-rounded img-thumbnail biopic" }),
+                    React.createElement("img", { src: "./src/assets/images/me.jpg", className: "img-responsive img-rounded img-thumbnail biopic" }),
                     React.createElement("div", { style: { textAlign: "center" } })
                 ),
                 React.createElement(
