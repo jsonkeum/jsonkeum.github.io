@@ -14,7 +14,7 @@ module.exports = [
                 "description":"Full stack web application allowing users to login and join a live stream. Supports youtube livechat and google OAuth flow. NoSQL database in the backend saves and returns chat messages."
             }
         ]
-    }
+    },
     {
         "id":"front",
         "collectionName": "Front End",
