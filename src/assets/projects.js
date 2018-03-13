@@ -1,5 +1,21 @@
 module.exports = [
     {
+        "id":"mern",
+        "collectionName":"MERN Web Apps",
+        "collection":[
+            {
+                "id":"youtube_stream",
+                "name": "Youtube Stream+Chat App",
+                "date": new Date("Mar 12, 2018"),
+                "image":"youtube_stream_main.png",
+                "link":"",
+                "source":"https://github.com/quanchifootball/youtube_stream",
+                "tags":["mongodb","mongoose","express","react","react-router","react-bootstrap","node","axios","ejs","webpack"],
+                "description":"Full stack web application allowing users to login and join a live stream. Supports youtube livechat and google OAuth flow. NoSQL database in the backend saves and returns chat messages."
+            }
+        ]
+    }
+    {
         "id":"front",
         "collectionName": "Front End",
         "collection":[
