@@ -9,7 +9,7 @@ module.exports = [{
         "name": "Youtube Stream+Chat App",
         "date": new Date("Mar 12, 2018"),
         "image": "youtube_stream_main.png",
-        "link": "",
+        "link": "https://youtube-streaming-tool.herokuapp.com",
         "source": "https://github.com/quanchifootball/youtube_stream",
         "tags": ["mongodb", "mongoose", "express", "react", "react-router", "react-bootstrap", "node", "axios", "ejs", "webpack"],
         "description": "Full stack web application allowing users to login and join a live stream. Supports youtube livechat and google OAuth flow. NoSQL database in the backend saves and returns chat messages."
