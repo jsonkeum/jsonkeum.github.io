@@ -227,13 +227,13 @@ var About = function (_React$Component) {
                     React.createElement(
                         "p",
                         null,
-                        "Formerly I worked as a lawyer in the States focusing on labour and employment litigation and e-discovery. I grew passionate about programming after gaining exposure to a wide variety of B2B applications in my career."
+                        "These are some old projects I made several years ago while learning how to code."
                     ),
                     React.createElement("br", null),
                     React.createElement(
                         "p",
                         null,
-                        "I am self-taught in full-stack javascript development. As a part-time student in BCIT's Applied Software Development program, I am also learning about Java application development along with object oriented programming and systems analysis. In the future I hope to learn more about data and data visualization."
+                        "Enjoy!"
                     ),
                     React.createElement("br", null),
                     React.createElement(
