@@ -24,7 +24,7 @@
     "browserify": "^14.4.0",
     "gulp": "^3.9.1",
     "livereactload": "^3.3.0",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^8.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.9.0"
