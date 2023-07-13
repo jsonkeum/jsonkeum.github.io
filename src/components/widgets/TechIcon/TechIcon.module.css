@@ -1,0 +1,18 @@
+.techIcon_container {
+  text-align: center;
+}
+
+.techIcon {
+  margin-top: 4px;
+  height: 32px;
+  width: auto;
+}
+
+.techIcon_small {
+  height: 20px;
+  width: auto;
+}
+
+.techIcon_name {
+  font-size: 14px;
+}

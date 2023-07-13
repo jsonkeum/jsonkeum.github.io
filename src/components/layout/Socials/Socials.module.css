@@ -1,0 +1,25 @@
+.SocialsContainer {
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.SocialsContainer > * {
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+}
+
+.SocialsContainer > *:first-child {
+  margin-right: 8px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.SocialsContainer img {
+  height: 60px;
+  width: auto;
+}

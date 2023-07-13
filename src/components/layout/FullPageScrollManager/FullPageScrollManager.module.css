@@ -1,0 +1,7 @@
+.fullPageManager {
+    height: 100%;
+    position: relative;
+    touch-action: none;
+    transform: translate3d(0px, 0px, 0px);
+    transition: transform 1000ms ease 0s;
+}

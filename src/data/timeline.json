@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Crowdcast",
+    "duration": "2020 - 2023",
+    "url": "https://www.crowdcast.io",
+    "stack": ["react", "next", "typescript", "graphql", "hasura", "node", "aws"],
+    "legacy": ["angular", "firebase", "mongo", "rest"],
+    "description": "A real time video conference and digital event application for creators and their audiences.",
+    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/crowdcast.mp4",
+    "bgColor": "#632ABC",
+    "image": false
+  },
+  {
+    "title": "TeacherMade",
+    "duration": "2020",
+    "url": "https://teachermade.com",
+    "stack": ["react", "typescript", "python", "django"],
+    "legacy": [],
+    "description": "Interactive document creation and management platform for teachers and students.",
+    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/teachermade.mp4",
+    "bgColor": "#800060",
+    "image": false
+  },
+  {
+    "title": "Smarty AI",
+    "duration": "2020",
+    "url": "https://www.smarty.ai",
+    "stack": ["react", "typescript", "node", "aws"],
+    "legacy": [],
+    "description": "AI driven productivity application that handles calendar, scheduling, tasks, etc.",
+    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/smarty.gif",
+    "bgColor": "#B30000",
+    "image": true
+  },
+  {
+    "title": "Streamlabs",
+    "duration": "2018 - 2019",
+    "url": "https://streamlabs.com",
+    "stack": ["react", "typescript", "php", "laravel", "rest", "aws"],
+    "legacy": ["vue"],
+    "description": "A cloud-based solution that helps businesses broadcast and stream personalized content across multiple social media platforms.",
+    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/streamlabs.mp4",
+    "bgColor": "#5AAB9F",
+    "image": false
+  },
+  {
+    "title": "OHM Electric Bikes",
+    "duration": "2017 - 2018",
+    "url": "https://streamlabs.com",
+    "stack": ["react", "shopify", "node", "aws"],
+    "legacy": [],
+    "description": "Electric bikes direct seller.",
+    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/ohmcycle.mp4",
+    "bgColor": "#ff9400",
+    "image": false
+  }
+]

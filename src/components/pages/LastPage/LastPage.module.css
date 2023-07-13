@@ -1,0 +1,34 @@
+.LastPage_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+}
+.LastPage_header {
+  font-size: 6em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .LastPage_header {
+    font-size: 3em;
+  }
+}
+
+.LastPage_socials {
+  display: flex;
+  margin-top: 32px;
+}
+
+.LastPage_socials > *:first-child {
+  margin-right: 32px;
+  border-radius: 100%;
+  background-color: white;
+}
+.LastPage_socials img {
+  height: 120px;
+}

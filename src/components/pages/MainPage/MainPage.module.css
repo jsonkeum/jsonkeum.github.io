@@ -1,0 +1,13 @@
+.MainPage_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.MainPage_header {
+  font-size: 6em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
