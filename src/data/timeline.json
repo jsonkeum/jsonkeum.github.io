@@ -6,7 +6,7 @@
     "stack": ["react", "next", "typescript", "graphql", "hasura", "node", "aws"],
     "legacy": ["angular", "firebase", "mongo", "rest"],
     "description": "A real time video conference and digital event application for creators and their audiences.",
-    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/crowdcast.mp4",
+    "media": "https://jsonkoomportfolioassets.s3.us-east-2.amazonaws.com/crowdcast.mp4",
     "bgColor": "#632ABC",
     "image": false
   },
@@ -17,7 +17,7 @@
     "stack": ["react", "typescript", "python", "django"],
     "legacy": [],
     "description": "Interactive document creation and management platform for teachers and students.",
-    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/teachermade.mp4",
+    "media": "https://jsonkoomportfolioassets.s3.us-east-2.amazonaws.com/teachermade.mp4",
     "bgColor": "#800060",
     "image": false
   },
@@ -28,7 +28,7 @@
     "stack": ["react", "typescript", "node", "aws"],
     "legacy": [],
     "description": "AI driven productivity application that handles calendar, scheduling, tasks, etc.",
-    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/smarty.gif",
+    "media": "https://jsonkoomportfolioassets.s3.us-east-2.amazonaws.com/smarty.gif",
     "bgColor": "#B30000",
     "image": true
   },
@@ -39,7 +39,7 @@
     "stack": ["react", "typescript", "php", "laravel", "rest", "aws"],
     "legacy": ["vue"],
     "description": "A cloud-based solution that helps businesses broadcast and stream personalized content across multiple social media platforms.",
-    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/streamlabs.mp4",
+    "media": "https://jsonkoomportfolioassets.s3.us-east-2.amazonaws.com/streamlabs.mp4",
     "bgColor": "#5AAB9F",
     "image": false
   },
@@ -50,7 +50,7 @@
     "stack": ["react", "shopify", "node", "aws"],
     "legacy": [],
     "description": "Electric bikes direct seller.",
-    "media": "https://s3.us-west-2.amazonaws.com/jason.koom.bucket/ohmcycle.mp4",
+    "media": "https://jsonkoomportfolioassets.s3.us-east-2.amazonaws.com/ohmcycle.mp4",
     "bgColor": "#ff9400",
     "image": false
   }
